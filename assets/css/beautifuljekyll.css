@@ -1123,11 +1123,12 @@ pre {
     display: inline-block;
   }
 }
+
 .pricing-section {
-    background-color: #c9c9c9; /* Change this to your desired background color */
-    padding: 40px;
-    width: 100%;
-    box-sizing: border-box;
+    width: 100vw; /* Full viewport width */
+    margin-left: calc(50% - 50vw); /* Center the section */
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    padding: 20px 0;
   }
   
   .pricing-section h2,
