@@ -1123,7 +1123,7 @@ pre {
     display: inline-block;
   }
 }
-\.pricing-section {
+.pricing-section {
     background-color: #c9c9c9; /* Change this to your desired background color */
     padding: 40px;
     width: 100%;
@@ -1136,4 +1136,39 @@ pre {
     margin: 0 auto;
     max-width: 1200px; /* Adjust this value as needed */
     padding: 0 20px;
+  }
+
+  .wide-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-me-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .about-me-content {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .about-me-image {
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .about-me-image img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
