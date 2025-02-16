@@ -1140,10 +1140,13 @@ pre {
   }
 
   .pricing-content {
+    display: flex;
+    max-width: 1200px; /* Full viewport width */
     margin-left: calc(50% - 50vw); /* Center the section */
-    max-width: 1200px; /* Adjust this value as needed */
-    padding: 0 20px;
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    padding: 20px 0;
   }
+  
 
   .wide-image {
     width: 100vw;
@@ -1182,18 +1185,20 @@ pre {
 
   .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 0;
   }
   
   .contact-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .contact-icon {
-    width: 24px; /* Adjust the size as needed */
-    height: 24px; /* Adjust the size as needed */
-    margin-right: 10px;
+    width: 48px; /* Adjust the size as needed */
+    height: 48px; /* Adjust the size as needed */
+    margin-bottom: 10px;
   }
