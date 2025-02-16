@@ -1123,3 +1123,17 @@ pre {
     display: inline-block;
   }
 }
+\.pricing-section {
+    background-color: #c9c9c9; /* Change this to your desired background color */
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .pricing-section h2,
+  .pricing-section p,
+  .pricing-section ul {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust this value as needed */
+    padding: 0 20px;
+  }
