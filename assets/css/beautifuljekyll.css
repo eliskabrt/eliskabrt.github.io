@@ -1140,13 +1140,13 @@ pre {
   }
 
   .pricing-content {
-    margin: 0 auto;
+    margin-left: calc(50% - 50vw); /* Center the section */
     max-width: 1200px; /* Adjust this value as needed */
     padding: 0 20px;
   }
 
   .wide-image {
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: block;
     margin: 0 auto;

@@ -13,7 +13,7 @@
 title: Elisha web
 
 # Your name to show in the footer
-author: Some Person
+author: Eliška Kábrt
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -87,10 +87,6 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: false
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
