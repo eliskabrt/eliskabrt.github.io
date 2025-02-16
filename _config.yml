@@ -20,8 +20,10 @@ author: Some Person
 ###############################################
 
 navbar-links:
-  About Me: "#about-me"
-  Resources: "#cenik"
+  O mně: "#about-me"
+  Terapie: "#cenik"
+  Průběh: "#cenik"
+  Ceník:  "#cenik"
 
 
 ################
