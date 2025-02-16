@@ -1131,17 +1131,9 @@ pre {
     padding: 20px 0;
   }
   
-  .pricing-section h2,
-  .pricing-section p,
-  .pricing-section ul {
-    margin: 0 auto;
-    max-width: 1200px; /* Adjust this value as needed */
-    padding: 0 20px;
-  }
-
   .pricing-content {
     display: flex;
-    max-width: 1200px; /* Full viewport width */
+    width: 1200px; /* Full viewport width */
     margin-left: calc(50% - 50vw); /* Center the section */
     background-color: #f0f0f0; /* Change this to your desired background color */
     padding: 20px 0;
