@@ -1139,6 +1139,12 @@ pre {
     padding: 0 20px;
   }
 
+  .pricing-content {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust this value as needed */
+    padding: 0 20px;
+  }
+
   .wide-image {
     width: 100%;
     height: auto;
@@ -1172,4 +1178,22 @@ pre {
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    margin-right: 10px;
   }
