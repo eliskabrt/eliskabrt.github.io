@@ -752,7 +752,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 @media (min-width: 1200px) {
   .intro-header {
-    margin-top: 3.125rem;
+    margin-top: 2rem;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -1123,21 +1123,6 @@ pre {
     display: inline-block;
   }
 }
-
-.pricing-section {
-    width: 100vw; /* Full viewport width */
-    margin-left: calc(50% - 50vw); /* Center the section */
-    background-color: #f0f0f0; /* Change this to your desired background color */
-    padding: 20px 0;
-  }
-  
-  .pricing-content {
-    display: flex;
-    width: 1200px; /* Full viewport width */
-    margin-left: calc(50% - 50vw); /* Center the section */
-    background-color: #f0f0f0; /* Change this to your desired background color */
-    padding: 20px 0;
-  }
   
 
   .wide-image {
