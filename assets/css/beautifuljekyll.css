@@ -1153,6 +1153,9 @@ pre {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 auto; /* Center the section */
+    max-width: 1200px; /* Adjust this value to match the width of other sections */
+    box-sizing: border-box;
   }
   
   .about-me-content {
