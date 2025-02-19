@@ -1152,15 +1152,11 @@ pre {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    margin: 0 auto; /* Center the section */
-    max-width: 1200px; /* Adjust this value to match the width of other sections */
     box-sizing: border-box;
   }
   
   .about-me-content {
     flex: 1;
-    padding: 20px;
     max-width: 50%;
     box-sizing: border-box;
   }
