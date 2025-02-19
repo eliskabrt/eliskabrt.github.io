@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Elisha web
+title: Psychoterapie Eliška Kábrt
 
 # Your name to show in the footer
 author: Eliška Kábrt
@@ -51,7 +51,6 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -60,7 +59,7 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
