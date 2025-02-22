@@ -1133,7 +1133,7 @@ pre {
     margin: 0 auto;
   }
 
-  .about-me-section {
+.about-me-section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1165,12 +1165,8 @@ pre {
         flex-direction: column;
     }
 
-    .about-me-content,
     .about-me-image {
         max-width: 100%;
-    }
-
-    .about-me-image {
         margin-top: 20px; /* Add some space between text and image */
     }
 }
