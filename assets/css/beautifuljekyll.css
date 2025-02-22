@@ -1165,8 +1165,12 @@ pre {
         flex-direction: column;
     }
 
+    .about-me-content,
     .about-me-image {
         max-width: 100%;
+    }
+
+    .about-me-image {
         margin-top: 20px; /* Add some space between text and image */
     }
 }
