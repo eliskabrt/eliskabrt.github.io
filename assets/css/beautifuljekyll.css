@@ -1136,29 +1136,33 @@ pre {
   .about-me-section {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-  }
-  
-  .about-me-content {
+}
+
+.about-me-content {
     flex: 1;
-    max-width: 50%;
-    box-sizing: border-box;
-  }
-  
-  .about-me-image {
+    min-width: 300px; /* Adjust as needed */
+}
+
+.about-me-image {
     flex: 1;
-    max-width: 50%;
-    box-sizing: border-box;
-    padding: 20px;
-  }
-  
-  .about-me-image img {
-    width: 100%;
+    min-width: 300px; /* Adjust as needed */
+    text-align: center; /* Center the image */
+}
+
+.about-me-image img {
+    max-width: 100%;
     height: auto;
-    display: block;
-  }
+}
+
+@media (max-width: 768px) {
+    .about-me-section {
+        flex-direction: column;
+    }
+
+    .about-me-image {
+        margin-top: 20px; /* Add some space between text and image */
+    }
+}
 
   .contact-info {
     display: flex;
