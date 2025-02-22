@@ -1232,3 +1232,16 @@ pre {
   form button:hover {
     background-color: #0056b3;
   }
+
+  .wide-form {
+    width: 90%; /* Adjust the width as needed */
+    max-width: 800px; /* Optional: to limit the maximum width */
+    margin: 0 auto; /* Center the form */
+}
+
+.wide-form input[type="text"],
+.wide-form input[type="email"],
+.wide-form textarea {
+    width: 100%; /* Make input fields and textarea take full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
