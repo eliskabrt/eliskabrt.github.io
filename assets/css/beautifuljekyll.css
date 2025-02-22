@@ -407,6 +407,7 @@ img {
 /* --- Footer --- */
 
 footer {
+  font-family: var(--body-font);
   padding: 1.875rem 0;
   border-top: 1px var(--footer-col) solid;
   margin-top: 3.125rem;
