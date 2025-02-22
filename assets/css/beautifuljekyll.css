@@ -1136,16 +1136,22 @@ pre {
   .about-me-section {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .about-me-content {
     flex: 1;
-    min-width: 300px; /* Adjust as needed */
+    max-width: 50%;
+    box-sizing: border-box;
 }
 
 .about-me-image {
     flex: 1;
-    min-width: 300px; /* Adjust as needed */
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
     text-align: center; /* Center the image */
 }
 
@@ -1154,12 +1160,13 @@ pre {
     height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .about-me-section {
         flex-direction: column;
     }
 
     .about-me-image {
+        max-width: 100%;
         margin-top: 20px; /* Add some space between text and image */
     }
 }
@@ -1236,16 +1243,3 @@ pre {
   form button:hover {
     background-color: #0056b3;
   }
-
-  .wide-form {
-    width: 90%; /* Adjust the width as needed */
-    max-width: 800px; /* Optional: to limit the maximum width */
-    margin: 0 auto; /* Center the form */
-}
-
-.wide-form input[type="text"],
-.wide-form input[type="email"],
-.wide-form textarea {
-    width: 100%; /* Make input fields and textarea take full width */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-}
