@@ -58,8 +58,8 @@ subtitle: MUDr. Eliška Kábrt
 <section id="price">
     <div class="pricing-content">
       <h2>Ceník</h2>
-      <p><strong>Sezení - 700Kč</strong></p>
-      <h3>Podmínky:</h3>
+      <p>Sezení - <strong>700Kč</strong></p>
+      <h2>Podmínky</h2>
       <ul>
         <li>Terapeutické sezení trvá 50 minut.</li>
         <li>Klient může bezplatně zrušit sezení nejpozději 24 hodin před jeho začátkem.</li>
@@ -78,5 +78,12 @@ subtitle: MUDr. Eliška Kábrt
         <textarea name="message" placeholder="Zpráva" rows="5"></textarea>
         <input type="hidden" name="utf8" value="✓">
         <button type="submit">Submit</button>
+        <div style="display:none" class="thankyou_message">
+            <!-- You can customize the thankyou message by editing the code below -->
+            <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+           </div>
     </form>
   </section>
+  
+  <script data-cfasync="false" type="text/javascript" src="_includes/form-submission-handler.js"></script>
