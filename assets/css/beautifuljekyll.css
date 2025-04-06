@@ -1141,6 +1141,7 @@ pre {
     box-sizing: border-box;
 }
 
+@media (min-width 800px) {
 .about-me-content {
     flex: 1;
     max-width: 50%;
@@ -1151,6 +1152,9 @@ pre {
     flex: 1;
     max-width: 50%;
     box-sizing: border-box;
+}
+}
+.about-me-image {
     padding: 20px;
     text-align: center; /* Center the image */
 }
