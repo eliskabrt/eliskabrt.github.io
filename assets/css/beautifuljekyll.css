@@ -1424,3 +1424,18 @@ pre {
     height: 36px;
   }
 }
+
+/* Sticky maternity leave notice banner above the navbar */
+.maternity-banner {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f6e9e3;
+  border-bottom: 2px solid #e6d1c8;
+  color: #5b3b34;
+  font-family: var(--body-font);
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  box-sizing: border-box;
+}

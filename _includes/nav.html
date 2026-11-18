@@ -2,7 +2,12 @@
     <img src="{{ '/assets/img/background.jpg' | relative_url }}" alt="Full Width Image">
   </div>
   
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+  <div class="fixed-top">
+    <div class="maternity-banner">
+      Milí klienti, z důvodu narození miminka a péče o rodinu jsou mé terapeutické služby do září 2027 pozastaveny. Děkuji za vaši důvěru a pochopení, těším se na vás opět na podzim 2027.
+    </div>
+
+    <nav class="navbar navbar-expand-xl navbar-light navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
   
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -55,6 +60,7 @@
       </div>
     {% endif %}
   
-  </nav>
+    </nav>
+  </div>
   
   {% include search.html %}
